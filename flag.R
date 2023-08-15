@@ -33,4 +33,6 @@ indian_flag_with_chakra <- indian_flag +
                            bottom = 0.5 - chakra_height / 2,
                            top = 0.5 + chakra_height / 2)
 
+ggsave("indian_flag_with_chakra.png", plot = indian_flag_with_chakra, width = 6, height = 4, units = "in", dpi = 500)
+
 print(indian_flag_with_chakra)
